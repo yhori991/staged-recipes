@@ -81,3 +81,6 @@ win = ["win", "python", "build"]
 build = ["python", "build"]
 grayskull = ["python", "grayskull"]
 conda-smithy = ["python", "conda-smithy"]
+
+[dependencies]
+anaconda-client = ">=1.13.0,<2"
